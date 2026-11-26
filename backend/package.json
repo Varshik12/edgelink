@@ -1,0 +1,23 @@
+{
+  "name": "edgelink-seo-backend",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Edgelink SEO Automation Platform - Pure JavaScript Backend API, 10-Step Audit Pipeline & BullMQ Worker",
+  "main": "server.js",
+  "scripts": {
+    "dev": "node --watch server.js",
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.39.0",
+    "bullmq": "^5.34.0",
+    "cheerio": "^1.0.0",
+    "dotenv": "^17.2.3",
+    "express": "^4.21.2",
+    "ioredis": "^5.4.2",
+    "mongoose": "^8.9.5",
+    "pdfkit": "^0.16.0",
+    "zod": "^3.24.2"
+  }
+}
